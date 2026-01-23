@@ -1,3 +1,18 @@
-dist/
-build/
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller artifacts
 *.spec
+build/
+dist/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Editor settings
+.vscode/
+.idea/
