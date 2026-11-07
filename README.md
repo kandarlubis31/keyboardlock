@@ -47,12 +47,20 @@ pyinstaller --onefile --windowed --icon lock.ico keyboard_blocker_pro.py
 ## Warning — read this before toggling
 
 - **The touchpad is usually on the same PS/2 bus and may be disabled as well.**
-  Keep an external USB or Bluetooth mouse connected.
+ Keep an external USB or Bluetooth mouse connected.
 - **The reboot is immediate** (`/t 0 /f`). Unsaved work is lost.
 - If the keyboard *and* touchpad are both disabled with no external input attached,
-  recovery requires another machine or a Windows recovery environment to set
-  `i8042prt` back to `auto`. There is no built-in undo once the machine restarts.
+ recovery requires another machine or a Windows recovery environment to set
+ `i8042prt` back to `auto`. There is no built-in undo once the machine restarts.
 - Registry and service edits require elevation; without it the app refuses to act.
+
+---
+
+## Bahasa Indonesia
+
+**Laptop Keyboard Manager** adalah utilitas Windows kecil untuk menonaktifkan keyboard bawaan laptop, supaya keyboard eksternal bisa diletakkan di atasnya tanpa memicu ketikan liar. Berguna saat keyboard mekanikal dipasang tepat di atas tombol laptop.
+
+---
 
 ## License
 
