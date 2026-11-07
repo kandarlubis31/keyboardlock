@@ -54,6 +54,14 @@ pyinstaller --onefile --windowed --icon lock.ico keyboard_blocker_pro.py
   `i8042prt` back to `auto`. There is no built-in undo once the machine restarts.
 - Registry and service edits require elevation; without it the app refuses to act.
 
+---
+
+## Bahasa Indonesia
+
+**Laptop Keyboard Manager** adalah utilitas Windows kecil untuk menonaktifkan keyboard bawaan laptop, supaya keyboard eksternal bisa diletakkan di atasnya tanpa memicu ketikan liar. Berguna saat keyboard mekanikal dipasang tepat di atas tombol laptop.
+
+---
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
